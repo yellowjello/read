@@ -75,7 +75,7 @@ body {
   --font-color: #222222;
   --background-color: #ffffff;
 }
-.dark-theme, .gray-theme {
+.dark-theme, .gray-theme, .black-theme {
   --font-color: rgba(255, 255, 255, .6);
   --highlight-shadow-color: rgba(240, 240, 241, 0.7);
   --background-color: #121212;
@@ -99,6 +99,9 @@ body {
 .gray-theme {
   --background-color: #23272a;
   --font-color: rgba(227, 227, 227, 0.80);
+}
+.black-theme {
+  --background-color: #000000;
 }
 html {
   font-size: 16px;
