@@ -2300,7 +2300,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-const db = Object(idb__WEBPACK_IMPORTED_MODULE_1__["openDB"])('books', 4, {
+const db = Object(idb__WEBPACK_IMPORTED_MODULE_1__["openDB"])('books-beta', 4, {
     upgrade(oldDb, oldVersion, newVersion, transaction) {
         return Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__awaiter"])(this, void 0, void 0, function* () {
             switch (oldVersion) {
