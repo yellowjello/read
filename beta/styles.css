@@ -143,8 +143,14 @@ body {
 .scroll-information {
   right: 8px;
 }
+.scroll-information:hover {
+  cursor: pointer;
+}
 .reading-stats-information {
   left: 8px;
+}
+.reading-stats-information:hover {
+  cursor: pointer;
 }
 .overlay-cover {
   position: fixed;
